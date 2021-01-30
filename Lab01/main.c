@@ -100,7 +100,7 @@ int main(void)
 	// HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_SET);
 	// HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET);
     /* USER CODE END WHILE */
-
+  ///testing for push
 	char initials[5] = "AB AB";
 	uint16_t pins[2] = {GPIO_PIN_4, GPIO_PIN_5};
 	for (int i = 0; i < 5; i++) {
