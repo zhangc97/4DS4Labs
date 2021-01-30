@@ -144,14 +144,90 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dot(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dot(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
     break;
-    // commmmmment
+  case 'C':
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+		Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+		Dot(GPIOx, GPIO_Pin);
+		break;
+  case 'D':
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+		Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		break;
+  case 'E':
+    Dot(GPIOx, GPIO_Pin);
+		break;
+  case 'F':
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+		Dot(GPIOx, GPIO_Pin);
+		break;
+  case 'G':
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+		Dot(GPIOx, GPIO_Pin);
+	  break;
+  case 'H':
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		break;
+  case 'I':
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		break;
+  case 'J':
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		break;
+  case 'K':
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		break;
+  case 'L':
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dot(GPIOx, GPIO_Pin);
+		break;
+  case 'M':
+		Dash(GPIOx, GPIO_Pin);
+		HAL_Delay(500);
+    Dash(GPIOx, GPIO_Pin);
+		break;
 	case 'N':
 		Dash(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dot(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'O':
 		Dash(GPIOx, GPIO_Pin);
@@ -159,7 +235,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dash(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dash(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'P':
 		Dot(GPIOx, GPIO_Pin);
@@ -169,7 +244,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dash(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dot(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'Q':
 		Dash(GPIOx, GPIO_Pin);
@@ -179,7 +253,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dot(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dash(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'R':
 		Dot(GPIOx, GPIO_Pin);
@@ -187,7 +260,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dash(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dot(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'S':
 		Dot(GPIOx, GPIO_Pin);
@@ -195,7 +267,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dot(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dot(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'T':
 		Dash(GPIOx, GPIO_Pin);
@@ -207,7 +278,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dot(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dash(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'V':
 		Dot(GPIOx, GPIO_Pin);
@@ -217,7 +287,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dot(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dash(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'W':
 		Dot(GPIOx, GPIO_Pin);
@@ -225,7 +294,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dash(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dash(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'X':
 		Dash(GPIOx, GPIO_Pin);
@@ -235,7 +303,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dot(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dash(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'Y':
 		Dash(GPIOx, GPIO_Pin);
@@ -245,7 +312,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dash(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dash(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	case 'Z':
 		Dash(GPIOx, GPIO_Pin);
@@ -255,7 +321,6 @@ void Flash_Morse_Character(char Char_Value, GPIO_TypeDef* GPIOx, uint16_t GPIO_P
 		Dot(GPIOx, GPIO_Pin);
 		HAL_Delay(500);
 		Dot(GPIOx, GPIO_Pin);
-		HAL_Delay(500);
 		break;
 	}
 }
